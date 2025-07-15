@@ -127,11 +127,15 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Button.cpp" />
     <ClCompile Include="sfml-formatter.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
     <None Include="README.md" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Button.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
