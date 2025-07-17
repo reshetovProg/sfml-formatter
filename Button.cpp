@@ -1,6 +1,6 @@
 #include "Button.h"
 
-Button::Button(sf::Vector2f size, sf::Font& font) :shape(size)
+Button::Button(sf::Vector2f size, sf::Font& font):shape(size)
 {
     text.setFont(font);
     text.setCharacterSize(18);
